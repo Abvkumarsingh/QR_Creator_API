@@ -10,8 +10,8 @@ const share=document.getElementById("share");
 share.addEventListener("click",(event)=>{
 if (navigator.share) {
     navigator.share({
-        title:"google official website",
-        url:"http://127.0.0.1:5501/weather%20project/index.html"
+        title:"QR Web Application",
+        url:" https://abvkumarsingh.github.io/QR_Creator_API/"
     })
 }
 })
